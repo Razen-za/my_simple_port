@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixolve contact us</title>
+    <link rel="icon" type="image/png" href="source\pixolvefavicon.png">
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="stylesheet" href="designport.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="file:///C:/Users/Shift-Tech/Documents/DEV/Project/Portfolio.html"><img src="source\logopixolve.png" alt="pixolve logo" width="183" height="73"></a>
+        </div>
+    </header>
+    <main>
+        <h1 id="title">CONTACT US</h1>
+        <div class="contactus">
+                <form action="contact" id="fill">
+                    <label for="name">Full Name:</label><br><br>
+                    <input type="text" class="input" id="name" name="name" placeholder="your full name here..."><br><br>
+                    <label for="mail">Email Address</label><br><br>
+                    <input type="email" id="mail" name="mail" class="input" placeholder="your email here..."><br><br>
+                    <label for="service">type Service:</label><br><br>
+                    <input type="text" class="input" id="service" name="service" placeholder="web development/ fan art..."><br><br>
+                    <label for="message">Description of the service:</label><br><br>
+                    <textarea id="message" name="message" class="input" placeholder="I want my service to be..."></textarea><br><br>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+        </div>
+    </main>
+    <script>
+        document.getElementById("fill").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("mail").value;
+        const message = document.getElementById("message").value;
+
+        if (name === "" || email === "" || message === "") {
+            alert("Please fill in all fields ");
+        } else {
+            alert("Message sent!");
+            console.log("Name:", name);
+            console.log("Email:", email);
+            console.log("Message:", message);
+            document.getElementById("fill").reset();
+        }
+        });
+    </script>
+<footer>
+    <div class="footercontain">
+            <div class="Nav">
+                <ul>
+                    <li><a href="links.html">links</a></li>
+                    <li><a href="contactus.html">contact us</a></li>
+                </ul>
+            </div>
+        <div class="footercopy">
+            <p>&copy;2025 Pixolve</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

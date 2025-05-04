@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(#ffffff, #81CAFF);
+}
+.logo:hover{
+    transform: scale(1);
+    box-shadow: 2px 2px 2px 2px #96d3ff;
+}
+header{
+    display: flex;
+    background-color:#81CAFF;
+    width: 100%;
+    max-width:1236px;
+    height:77px;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px;
+    margin: 0 auto;
+}
+.all{
+    background-color:#ffffff;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    border:10px,#FA5E8E, solid;
+    box-shadow: 7px 10px rgba(103, 92, 92, 0.5);
+    margin: 50px;
+}
+.all p{
+    border-left: 4px solid #FFCCE1;
+    font-family:"Microsoft YaHei UI", serif;
+    padding: 10px;
+    margin: 20px;
+}
+.Nav lu{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+.Nav li {
+    border-radius: 40px;
+    background-color:#FFCCE1;
+    border:3px,#FA5E8E, solid;
+    padding: 15px;
+    box-shadow: 2px 5px rgba(103, 92, 92, 0.5);
+    transition: transform 0.3s , box-shadow 0.3s;
+}
+.Nav a {
+    text-decoration:none;
+    font-size:20px;
+    font-family:"Milker", serif;
+    color:black;
+}
+ .Nav lu :hover{
+    background-color: rgb(255, 255, 255);
+    transition:0.5s;
+    color:#FA5E8E;
+}
+footer{
+    display: flex;
+    background-color:#81CAFF;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    max-width:1236px;
+    text-align:center;
+    padding:10px;
+    font-family:"Microsoft YaHei UI", serif;
+    padding-top: 40px;
+}
