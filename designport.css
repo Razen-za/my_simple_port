@@ -183,3 +183,146 @@ a{
 a:hover{
     color:#FA5E8E;
 }
+@media (max-width: 1024px) {
+    .mascot img{
+        width:8vm;
+        height:7vm;
+    }
+    .Nav ul {
+        gap: 40px;
+    }
+    .heading {
+        flex-direction: column;
+        padding: 15px;
+        margin: 15px;
+    }
+    .heading span {
+        font-size: 10vw;
+    }
+    .heading h1 {
+        font-size: 10vw;
+    }
+    .heading p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .all_us {
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 15px;
+        border-radius: 20px;
+        border-width: 7px;
+        box-shadow: 5px 7px rgba(103, 92, 92, 0.4);
+    }
+    table {
+        width: 90%;
+    }
+    .site {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .mascot img{
+        width:8vm;
+        height:7vm;
+    }
+    .Nav ul {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 0;
+    }
+    .Nav li {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 25px;
+    }
+    .heading span {
+        font-size: 10vw;
+        margin-bottom: 10px;
+    }
+    .heading h1 {
+        font-size: 10vw;
+    }
+    .heading p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .all_us {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        border-radius: 18px;
+        border-width: 5px;
+        box-shadow: 4px 6px rgba(103, 92, 92, 0.3);
+    }
+    .gallery {
+        gap: 5px;
+    }
+    .img {
+        width: 140px;
+        height: 140px;
+    }
+    table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .site {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .mascot img{
+        width:80px;
+        height:70px;
+    }
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .Nav ul {
+        gap: 10px;
+    }
+    .Nav li {
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    .heading span {
+        font-size: 10vw;
+    }
+    .heading h1 {
+        font-size: 10vw;
+    }
+    .heading p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .all_us {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 8px;
+        border-radius: 15px;
+        border-width: 4px;
+        box-shadow: 3px 5px rgba(103, 92, 92, 0.25);
+    }
+    .gallery {
+        gap: 4px;
+    }
+    .img {
+        width: 120px;
+        height: 120px;
+    }
+    table {
+        font-size: 0.8rem;
+        border-width: 2px;
+    }
+    .site {
+        margin: 5px;
+        padding: 8px;
+        border-radius: 15px;
+    }
+}
