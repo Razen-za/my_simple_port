@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background:linear-gradient(#ffffff, #81CAFF);
-    src:url(source\Milker.otf),url(source\MicrosoftYaHeiUI.ttf);
 }
 footer{
     display: flex;
@@ -12,7 +11,7 @@ footer{
     width: 100%;
     text-align:center;
     padding:10px;
-    font-family:"Microsoft YaHei UI", serif;
+    font-family: "Open Sans", sans-serif;
     padding-top: 40px;
 }
 .Nav ul{
@@ -31,7 +30,7 @@ footer{
 .Nav a{
     text-decoration:none;
     font-size:20px;
-    font-family:"Milker", serif;
+    font-family: "Bebas Neue", sans-serif;
     color:black;
 }
  .Nav ul :hover{
@@ -67,14 +66,14 @@ header{
 .heading h1{
     margin: 0px;
     padding:0px;
-    font-family: "Milker",serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 70px;
     letter-spacing: 2px;
     text-align:center;
     align-items:center;
 }
 .heading p{
-    font-family:"Microsoft YaHei UI", serif;
+    font-family: "Open Sans", sans-serif;
     margin-top:0px;
     margin-bottom: 40px;
     text-align:center;
@@ -116,7 +115,7 @@ header{
     margin-right: 50px;
     margin-bottom: 50px;
     padding: 20px;
-    font-family: "Microsoft YaHei UI", serif;
+    font-family: "Open Sans", sans-serif;
     background-color: #ffffff;
     border-radius: 29px;
     border: solid #FA5E8E 10px;
@@ -127,7 +126,7 @@ header{
     cursor: zoom-out;
 }
 #about{
-    font-family:"Milker",serif;
+    font-family: "Bebas Neue", sans-serif;
     text-align:center;
     margin: 10px;
     padding: 10px;
@@ -177,7 +176,7 @@ th, td {
     margin: 20px;
 }
 a{
-    font-family:"Milker",serif;;
+    font-family: "Bebas Neue", sans-serif;
     color:#0095ff;
     text-decoration:none;
 }
