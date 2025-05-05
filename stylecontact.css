@@ -76,3 +76,40 @@ input::placeholder {
     padding: 15px;
     letter-spacing: 0.3px;
 }
+@media (max-width: 768px) {
+    .contactus {
+        margin: 20px; 
+        padding: 15px; 
+    }
+    h1 {
+        font-size: 20px; 
+    }
+    #title {
+        font-size: 24px; 
+    }
+    .btn {
+        font-size: 15px;
+    }
+    label {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contactus {
+        margin: 10px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    #title {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    label {
+        font-size: 18px;
+    }
+}
