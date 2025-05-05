@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background:linear-gradient(#ffffff, #81CAFF);
-    src:url(source\Milker.otf),url(source\MicrosoftYaHeiUI.ttf);
 }
 .logo:hover{
     transform: scale(1);
@@ -33,7 +32,7 @@ header{
 }
 .all p{
     border-left: 4px solid #FFCCE1;
-    font-family:"Microsoft YaHei UI", serif;
+    font-family: "Open Sans", sans-serif;
     padding: 10px;
     margin: 20px;
 }
@@ -53,7 +52,7 @@ header{
 .Nav a {
     text-decoration:none;
     font-size:20px;
-    font-family:"Milker", serif;
+    font-family: "Bebas Neue", sans-serif;
     color:black;
 }
  .Nav lu :hover{
@@ -70,6 +69,6 @@ footer{
     max-width:1236px;
     text-align:center;
     padding:10px;
-    font-family:"Microsoft YaHei UI", serif;
+    font-family: "Open Sans", sans-serif;
     padding-top: 40px;
 }
