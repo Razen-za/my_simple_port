@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background:linear-gradient(#ffffff, #81CAFF);
-    src:url(source\Milker.otf),url(source\MicrosoftYaHeiUI.ttf);
 }
 h1 {
     text-align: center;
@@ -18,14 +17,14 @@ h1 {
     display: flex;
     justify-content:center;
     align-items: center;
-    font-family: "Microsoft YaHei UI", serif;
+    font-family: "Bebas Neue", sans-serif;
     background-color: #ffffff;
     border-radius: 29px;
     border: solid #FA5E8E 10px;
     box-shadow: 7px 10px rgba(103, 92, 92, 0.5);
 }
 #title{
-    font-family:"Milker",serif;
+    font-family: "Bebas Neue", sans-serif;
     text-align:center;
     margin: 10px;
     padding: 10px;
@@ -37,7 +36,7 @@ form{
     position:relative;
 }
 label{
-    font-family:"Milker",serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 24px;
     text-align:center;
 }
@@ -67,7 +66,7 @@ textarea.input {
 }
 input::placeholder {
     color:#FA5E8E;
-    font-family: "Microsoft YaHei UI", serif;
+    font-family: "Bebas Neue", sans-serif;
   }
 .input {
     width:100%;
