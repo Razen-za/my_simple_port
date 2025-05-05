@@ -17,7 +17,7 @@ h1 {
     display: flex;
     justify-content:center;
     align-items: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: #ffffff;
     border-radius: 29px;
     border: solid #FA5E8E 10px;
@@ -46,7 +46,7 @@ label{
     background-color: #81CAFF;
     border: 1.3px solid #004271;
     border-radius: 15px;
-    font-family: "Milker", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 17px;
     letter-spacing: 0.5px;
     cursor:pointer;
@@ -66,7 +66,7 @@ textarea.input {
 }
 input::placeholder {
     color:#FA5E8E;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Open Sans", sans-serif;
   }
 .input {
     width:100%;
