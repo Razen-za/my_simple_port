@@ -10,7 +10,6 @@ footer{
     justify-content:center;
     align-items: center;
     width: 100%;
-    max-width:1236px;
     text-align:center;
     padding:10px;
     font-family:"Microsoft YaHei UI", serif;
@@ -48,7 +47,6 @@ header{
     display: flex;
     background-color:#81CAFF;
     width: 100%;
-    max-width:1236px;
     height:77px;
     justify-content: flex-start;
     align-items: center;
